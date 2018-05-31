@@ -169,6 +169,9 @@ ul{
 	width: 8%;
 	border-radius: 100%;
 }
+.stackImg:hover{
+	opacity: 25%;
+}
 
 .githubImg{
 	margin-right: 7%;
