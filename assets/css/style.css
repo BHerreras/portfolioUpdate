@@ -2,8 +2,8 @@ body{
 	height: 100%;
 	margin: 0;
   	width:100%;
-	color: whitesmoke;
-	background: url("../images/editedbkrnd.png");
+	background: #e5ba8f;
+	/*background: url("../images/editedbkrnd.png");*/
 }
 body::before {
 	content: "";
@@ -40,7 +40,7 @@ ul{
 .headingTitle{
 	padding-top: 20px;
 	font-size: 80px;
-	color: white;
+	color: rgb(46, 3, 3);
 	font-weight: bold;
 
 }
@@ -55,13 +55,6 @@ ul{
 	padding-bottom: 15px;
 }
 
-
-
-.appTitle{
-	color: #1f8871;
-	text-align: center;
-	font-size: 40px;
-}
 .projectCard{
 	border-radius: 50px;
 	background: rgba(31,136,113,0.2);
@@ -88,6 +81,8 @@ ul{
 .projectTitle{
 	font-family: 'Concert One', cursive;
 	font-size: 2em;
+	text-align: center;
+	color: #821B12;
 }
 .projectPic{
 	width: 50%;
@@ -104,7 +99,8 @@ ul{
 	width: 50%;
 	text-align: left;
 	font-weight: bolder;
-	outline-color: turquoise;
+	outline-color: rgb(10, 17, 16);
+	color: #821B12;
 }
 
 
@@ -156,10 +152,13 @@ ul{
 }
 .name{
 	font-family: 'Courgette', cursive;
+	color:#821B12;
 }
 .aboutMe{
 	text-align: center;
 	font-family: 'Courgette', cursive;
+	color:#821B12;
+	font-weight: bolder;
 }
 
 .aboutMeText{
