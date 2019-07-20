@@ -2,7 +2,7 @@ body{
 	height: 100%;
 	margin: 0;
   	width:100%;
-	background: #e5ba8f;
+	background:#cc9e7c;
 	/*background: url("../images/editedbkrnd.png");*/
 }
 body::before {
@@ -19,7 +19,10 @@ body::before {
 
 .name{
 	outline: black, 2px, solid;
-	font-size: 50px;
+	font-size: 55px;
+	color:#900400;
+	font-family: 'Courgette', cursive;
+
 }
 .skills{
 	width: 25%;
@@ -40,7 +43,7 @@ ul{
 .headingTitle{
 	padding-top: 20px;
 	font-size: 80px;
-	color: rgb(46, 3, 3);
+	color: maroon;
 	font-weight: bold;
 
 }
@@ -82,7 +85,7 @@ ul{
 	font-family: 'Concert One', cursive;
 	font-size: 2em;
 	text-align: center;
-	color: #821B12;
+	color: maroon;
 }
 .projectPic{
 	width: 50%;
@@ -100,7 +103,7 @@ ul{
 	text-align: left;
 	font-weight: bolder;
 	outline-color: rgb(10, 17, 16);
-	color: #821B12;
+	color: maroon;
 }
 
 
@@ -150,14 +153,11 @@ ul{
 	display: inline-block; 
 	font-family: 'Courgette', cursive;
 }
-.name{
-	font-family: 'Courgette', cursive;
-	color:#821B12;
-}
+
 .aboutMe{
 	text-align: center;
 	font-family: 'Courgette', cursive;
-	color:#821B12;
+	color:maroon;
 	font-weight: bolder;
 }
 
